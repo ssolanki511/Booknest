@@ -1,0 +1,169 @@
+@font-face {
+  font-family: "Poppins";
+  src: url('../fonts/Poppins-Regular.ttf');
+}
+@font-face {
+  font-family: "Rubik";
+  src: url('../fonts/Rubik-Regular.ttf');
+}
+@font-face {
+  font-family: "Quicksand";
+  src: url('../fonts/Quicksand-Regular.ttf');
+}
+
+.bg-pattern {
+  background-image: url('../images/login_bg.png');
+}
+.color {
+  background: linear-gradient(90deg, #0073bf 0%, #4cb83c 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+html,
+body {
+  font-family: 'Poppins', serif;
+  scroll-behavior: smooth;
+  scroll-padding-top: 128px;
+}
+
+.swiper{
+  width: 14rem;
+  
+}
+@media (min-width:610px) {
+  .swiper{
+    width: 30rem;
+  }
+}
+
+@media (min-width:930px) {
+  .swiper{
+    width: 48rem;
+  }
+}
+@media (min-width:1050px) {
+  .swiper{
+    width: 50rem;
+  }
+}
+@media (min-width:1220px) {
+  .swiper{
+    width: 65rem;
+  }
+}
+
+
+.you-like-btn-next,.you-like-btn-prev{
+  height: 2.5rem;
+  width: 2.5rem;
+  background-color: white;
+  border-radius: 50%;
+  color: #3351d8;
+}
+.you-like-btn-next::after,
+.you-like-btn-prev::after{
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+/* footer */
+.footer-heading::before{
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 60%;
+  height: 2px;
+  background-color: #3351d8;
+}
+
+/* contact page line */
+.contact-line::before{
+  content: "";
+  width: 80%;
+  height: 2px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: darkslategrey;
+}
+
+/* responsive */
+@media (min-width: 768px) {
+  .contact-line::before{
+    width: 2px;
+    height: 100%;
+  }
+
+  .swiper-button-next::after,
+  .swiper-button-prev::after{
+    font-size: 1.2rem;
+  }
+}
+
+.contact-heading{
+  font-family: "Rubik";
+}
+
+/* rating */
+/* .rating:not(:checked) > input {
+  position: absolute;
+  appearance: none;
+}
+
+.rating:not(:checked) > label {
+  
+  color: #666;
+}
+
+.rating:not(:checked) > label:before {
+  content: '★';
+}
+
+.rating > input:checked ~ label {
+  color: #3351d8;
+} */
+
+.rating2:not(:checked) > input {
+  position: absolute;
+  appearance: none;
+}
+
+.rating2:not(:checked) > label {
+  float: right;
+  color: #666;
+}
+
+.rating2:not(:checked) > label:before {
+  content: '★';
+}
+
+.rating2 > input:checked ~ label {
+  color: #3351d8;
+}
+
+.filter-box{
+  height: calc(100vh - 64px);
+}
+
+.error-field{
+  font-size: 14px;
+  color: red;
+}
+
+@media (max-width: 768px) {
+  .error-field{
+    font-size: 12px;
+  }
+}
+.otp_field::-webkit-inner-spin-button,
+.otp_field::-webkit-outer-spin-button{
+  -webkit-appearance: none;
+  margin: 0;
+}
+.otp:valid{
+  border-color: #3351d8;
+}

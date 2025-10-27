@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "Poppins";
+  src: url('../fonts/Poppins-Regular.ttf');
+}
+@font-face {
+  font-family: "Rubik";
+  src: url('../fonts/Rubik-Regular.ttf');
+}
+@font-face {
+  font-family: "Quicksand";
+  src: url('../fonts/Quicksand-Regular.ttf');
+}
+
+html,
+body {
+  font-family: 'Poppins', serif;
+  scroll-behavior: smooth;
+  scroll-padding-top: 128px;
+}
+
+.error{
+  font-size: 16px;
+  color: red;
+}
+
+@media (max-width: 640px) {
+  .error{
+    font-size: 14px;
+  }
+}
+
+.slidebar{
+  height: calc(100vh - 56px);
+}
+
+.admin-logo{
+  font-family: "Quicksand";
+}
+
+.color {
+  background: linear-gradient(150deg, #0073bf 0%, #4cb83c 100%);
+  background-clip: "text";
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} 
