@@ -14,4 +14,6 @@ Follow these steps to run the project locally.
 
 4. To run the tailwind css:
 
------ npm run dev
+----- npm run start
+
+5. I also uploded demo MySQL database in database folder
