@@ -11,3 +11,7 @@ Follow these steps to run the project locally.
 3. If you haven’t set up Tailwind dependencies yet, you can install them with:
 
 ----- npm install -D tailwindcss postcss autoprefixer
+
+4. To run the tailwind css:
+
+----- npm run dev
