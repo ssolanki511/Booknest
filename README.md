@@ -17,3 +17,4 @@ Follow these steps to run the project locally.
 ----- npm run start
 
 5. I also uploded demo MySQL database in database folder
+note: don't change database file name.
